@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>KOH SPORT</title>
+        <meta name="description" content="Page d'accueil du site">
+        <meta name="keywords" content="Accueil, séjour, sport, SPORTKOH">
+        <meta name="author" content="MEAR Yohann">
+        <!-- Lien vers la page de script-->
+		<link rel="stylesheet" href="../src/stylesheet.css">
+	</head>
+<body>
+    <!-- Header de la page, présent sur toutes les pages -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="../src/images/Logo.png" alt="Logo" title="Logo"></a></li>
+                <li><a href="catalogue-sejours.html">Our stays</a></li>
+                <li><a href="page_hebergement_detaille.html">Our accommodations</a></li>
+                <li><a href="">Who are we ?</a></li>
+                <li><a href="">Advice and recommendation</a></li>
+                <li><a href="../fr/index.html"><img id="lang-button" src="../src/images/drapeau-fr.svg" alt="Changement de langue" title="Drapeau FR"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="accueil"> 
+        <!-- Titre principal avec l'image de fond -->
+        <h1 class="titre">Travel to Iceland -15%</h1>
+        <section>
+            <!-- Titre qui disparaît en dessous de 1100px -->
+            <h1 class="dispawn">Our last stays</h1>
+            <!-- Div qui présente les 3 derniers séjours -->
+            <div class="flex-row">
+                <figure class="vignette">
+                    <img src="../src/images/mald.jpg" alt="Landscape of Maldive" title="Image Maldive">
+                    <figcaption><a href="catalogue-sejours.html#montagne">Stay in Corsica<br>in a hut</a></figcaption>
+                </figure>
+                <figure class="vignette">
+                    <img src="../src/images/Lourdes.jpg" alt="Landscape of Lourdes" title="Image Lourdes">
+                    <figcaption><a href="catalogue-sejours.html#mer">Stay in Lourdes<br>in a chalet</a></figcaption>
+                </figure>
+                <!-- Séjour qui disparaît en dessous de 1100px -->
+                <figure class="vignette dispawn">
+                    <img src="../src/images/sydney.jpeg" alt="Landscape of Sydney" title="Image Sydney">
+                    <figcaption><a href="catalogue-sejours.html#international">Stay in Sidney<br>in a hotel</a></figcaption>
+                </figure>
+            </div>
+
+            <!-- div où le titre avec une bordure apparaît au dessus de l'image -->
+            <div class="title-with-image">
+                <img src="../src/images/mont-foret.jpg" alt="Mountain forest" title="Montagne forêt">
+                <h1>Passion in one place</h1>
+            </div>
+
+            <!-- Article avec les paragraphes qui présentent qui nous sommes et les valeurs du sport -->
+            <article class="text-block">
+                <!-- Les deux div sont affichés l'une en dessous de l'autre en dessous de 1100px -->
+                <div class="flex-column">
+                    <!-- div qui apparaît en dessous de 1100px -->
+                    <div id="quisommenous">
+                        <h3>Who are we?</h3>
+                        <span>|</span>
+                        <p>
+                            We are a travel company, especially in sports, implemented in the field
+                            in the field for 15 years. Composed of 500 collaborators, we will 
+                            we will make you live dream stays.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>What are the values of sport?</h3>
+                        <!-- définition de la barre de séparation entre le h3 et le paragraphe-->
+                        <span>|</span>
+                        <p>
+                            Sport can teach values such as fairness, teamwork, equality, discipline, inclusion, perseverance and
+                            discipline, inclusion, perseverance and respect. Sport has the power to provide a universal
+                            for learning values, contributing to the development of personal skills necessary for responsible
+                            personal skills necessary for responsible citizenship.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!--Footer de la page, présent sur toutes les pages.-->
+    <footer>
+        <img src="../src/images/Logo_Footer.png" alt="Second Logo" title="Logo Footer">
+        <div>
+            <p>Our Networks</p>
+            <div class="icon">
+                <img src="../src/images/facebook.svg" alt="facebook">
+                <img src="../src/images/instagram.svg" alt="instagram">
+                <img src="../src/images/twitter.svg" alt="twitter">
+            </div>
+        </div>
+
+        <div>
+            <p>Contact Us</p>
+            <div class="line-footer">
+                <img src="../src/images/mail.svg" alt="Mail">
+                <p><a href="mailto:ethan.levacher@etudiant.univ-rennes1.fr">contact@sport-koh.fr</a></p>
+            </div>
+            <div class="line-footer">
+                <img src="../src/images/position.svg" alt="Position">
+                <p>11 Rue de la Chapelle<br><span>Lannion 22300</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
